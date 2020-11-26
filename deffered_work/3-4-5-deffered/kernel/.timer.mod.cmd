@@ -1,0 +1,1 @@
+cmd_/home/noureddine/linux-lab/linux-kernel-labs/deffered_work/3-4-5-deffered/kernel/timer.mod := { echo  /home/noureddine/linux-lab/linux-kernel-labs/deffered_work/3-4-5-deffered/kernel/timer.o; echo; } > /home/noureddine/linux-lab/linux-kernel-labs/deffered_work/3-4-5-deffered/kernel/timer.mod

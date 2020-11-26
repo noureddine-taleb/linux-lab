@@ -1,0 +1,1 @@
+cmd_/home/noureddine/linux-lab/linux-kernel-labs/filesystems/minfs/kernel/minfs.mod := { echo  /home/noureddine/linux-lab/linux-kernel-labs/filesystems/minfs/kernel/minfs.o; echo; } > /home/noureddine/linux-lab/linux-kernel-labs/filesystems/minfs/kernel/minfs.mod

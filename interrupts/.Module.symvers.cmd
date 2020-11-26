@@ -1,0 +1,1 @@
+cmd_/home/noureddine/linux-lab/linux-kernel-labs/interrupts/Module.symvers := sed 's/ko$$/o/' /home/noureddine/linux-lab/linux-kernel-labs/interrupts/modules.order | scripts/mod/modpost  -a   -o /home/noureddine/linux-lab/linux-kernel-labs/interrupts/Module.symvers -e -i Module.symvers  -N -T -

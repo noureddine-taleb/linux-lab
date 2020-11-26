@@ -1,0 +1,1 @@
+cmd_/home/noureddine/linux-lab/linux-kernel-labs/deffered_work/3-4-5-deffered/kernel/Module.symvers := sed 's/ko$$/o/' /home/noureddine/linux-lab/linux-kernel-labs/deffered_work/3-4-5-deffered/kernel/modules.order | scripts/mod/modpost  -a   -o /home/noureddine/linux-lab/linux-kernel-labs/deffered_work/3-4-5-deffered/kernel/Module.symvers -e -i Module.symvers  -N -T -

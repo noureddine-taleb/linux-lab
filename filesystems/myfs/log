@@ -1,0 +1,41 @@
+make: Entering directory '/usr/lib/modules/5.8.7-arch1-1/build'
+  CC [M]  /home/noureddine/linux-lab/linux-kernel-labs/filesystems/myfs/myfs.o
+/home/noureddine/linux-lab/linux-kernel-labs/filesystems/myfs/myfs.c: In function ‘myfs_fill_sb’:
+/home/noureddine/linux-lab/linux-kernel-labs/filesystems/myfs/myfs.c:47:6: error: ‘struct super_block’ has no member named ‘s_max_bytes’; did you mean ‘s_maxbytes’?
+   47 |  sb->s_max_bytes = MAX_LFS_FILESIZE;
+      |      ^~~~~~~~~~~
+      |      s_maxbytes
+In file included from ./include/linux/printk.h:7,
+                 from ./include/linux/kernel.h:15,
+                 from ./include/linux/list.h:9,
+                 from ./include/linux/module.h:12,
+                 from /home/noureddine/linux-lab/linux-kernel-labs/filesystems/myfs/myfs.c:1:
+/home/noureddine/linux-lab/linux-kernel-labs/filesystems/myfs/myfs.c: In function ‘init_myfs’:
+./include/linux/kern_levels.h:5:18: warning: format ‘%s’ expects a matching ‘char *’ argument [-Wformat=]
+    5 | #define KERN_SOH "\001"  /* ASCII Start Of Header */
+      |                  ^~~~~~
+./include/linux/kern_levels.h:14:19: note: in expansion of macro ‘KERN_SOH’
+   14 | #define KERN_INFO KERN_SOH "6" /* informational */
+      |                   ^~~~~~~~
+./include/linux/printk.h:368:9: note: in expansion of macro ‘KERN_INFO’
+  368 |  printk(KERN_INFO pr_fmt(fmt), ##__VA_ARGS__)
+      |         ^~~~~~~~~
+/home/noureddine/linux-lab/linux-kernel-labs/filesystems/myfs/myfs.c:98:2: note: in expansion of macro ‘pr_info’
+   98 |  pr_info("%s: fs is loaded");
+      |  ^~~~~~~
+/home/noureddine/linux-lab/linux-kernel-labs/filesystems/myfs/myfs.c: In function ‘exit_myfs’:
+./include/linux/kern_levels.h:5:18: warning: format ‘%s’ expects a matching ‘char *’ argument [-Wformat=]
+    5 | #define KERN_SOH "\001"  /* ASCII Start Of Header */
+      |                  ^~~~~~
+./include/linux/kern_levels.h:14:19: note: in expansion of macro ‘KERN_SOH’
+   14 | #define KERN_INFO KERN_SOH "6" /* informational */
+      |                   ^~~~~~~~
+./include/linux/printk.h:368:9: note: in expansion of macro ‘KERN_INFO’
+  368 |  printk(KERN_INFO pr_fmt(fmt), ##__VA_ARGS__)
+      |         ^~~~~~~~~
+/home/noureddine/linux-lab/linux-kernel-labs/filesystems/myfs/myfs.c:105:2: note: in expansion of macro ‘pr_info’
+  105 |  pr_info("%s: fs is unloaded");
+      |  ^~~~~~~
+make[1]: *** [scripts/Makefile.build:281: /home/noureddine/linux-lab/linux-kernel-labs/filesystems/myfs/myfs.o] Error 1
+make: *** [Makefile:1756: /home/noureddine/linux-lab/linux-kernel-labs/filesystems/myfs] Error 2
+make: Leaving directory '/usr/lib/modules/5.8.7-arch1-1/build'

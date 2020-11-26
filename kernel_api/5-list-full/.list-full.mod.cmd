@@ -1,0 +1,1 @@
+cmd_/home/noureddine/linux-lab/linux-kernel-labs/5-list-full/list-full.mod := { echo  /home/noureddine/linux-lab/linux-kernel-labs/5-list-full/list-full.o; echo; } > /home/noureddine/linux-lab/linux-kernel-labs/5-list-full/list-full.mod

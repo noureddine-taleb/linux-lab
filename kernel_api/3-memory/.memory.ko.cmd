@@ -1,0 +1,1 @@
+cmd_/home/noureddine/linux-lab/linux-kernel-labs/3-memory/memory.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 --build-id  -T ./scripts/module-common.lds -o /home/noureddine/linux-lab/linux-kernel-labs/3-memory/memory.ko /home/noureddine/linux-lab/linux-kernel-labs/3-memory/memory.o /home/noureddine/linux-lab/linux-kernel-labs/3-memory/memory.mod.o;  true

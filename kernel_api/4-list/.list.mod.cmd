@@ -1,0 +1,1 @@
+cmd_/home/noureddine/linux-lab/linux-kernel-labs/4-list/list.mod := { echo  /home/noureddine/linux-lab/linux-kernel-labs/4-list/list.o; echo; } > /home/noureddine/linux-lab/linux-kernel-labs/4-list/list.mod

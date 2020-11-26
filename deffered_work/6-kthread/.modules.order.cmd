@@ -1,0 +1,1 @@
+cmd_/home/noureddine/linux-lab/linux-kernel-labs/deffered_work/6-kthread/modules.order := {   echo /home/noureddine/linux-lab/linux-kernel-labs/deffered_work/6-kthread/kthread.ko; :; } | awk '!x[$$0]++' - > /home/noureddine/linux-lab/linux-kernel-labs/deffered_work/6-kthread/modules.order

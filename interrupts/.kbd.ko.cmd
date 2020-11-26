@@ -1,0 +1,1 @@
+cmd_/home/noureddine/linux-lab/linux-kernel-labs/interrupts/kbd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 --build-id  -T ./scripts/module-common.lds -o /home/noureddine/linux-lab/linux-kernel-labs/interrupts/kbd.ko /home/noureddine/linux-lab/linux-kernel-labs/interrupts/kbd.o /home/noureddine/linux-lab/linux-kernel-labs/interrupts/kbd.mod.o;  true

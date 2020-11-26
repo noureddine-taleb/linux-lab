@@ -1,0 +1,1 @@
+cmd_/home/noureddine/linux-lab/linux-kernel-labs/block_device_drivers/1-2-3-6-ram-disk/kernel/modules.order := {   echo /home/noureddine/linux-lab/linux-kernel-labs/block_device_drivers/1-2-3-6-ram-disk/kernel/ram-disk.ko; :; } | awk '!x[$$0]++' - > /home/noureddine/linux-lab/linux-kernel-labs/block_device_drivers/1-2-3-6-ram-disk/kernel/modules.order

@@ -1,0 +1,1 @@
+cmd_/home/noureddine/linux-lab/linux-kernel-labs/4-list/list.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 --build-id  -T ./scripts/module-common.lds -o /home/noureddine/linux-lab/linux-kernel-labs/4-list/list.ko /home/noureddine/linux-lab/linux-kernel-labs/4-list/list.o /home/noureddine/linux-lab/linux-kernel-labs/4-list/list.mod.o;  true

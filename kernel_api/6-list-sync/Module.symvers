@@ -1,0 +1,3 @@
+0x00000000	task_info_add_for_current	/home/noureddine/linux-lab/linux-kernel-labs/6-list-sync/list-sync	EXPORT_SYMBOL	
+0x00000000	task_info_pr_list	/home/noureddine/linux-lab/linux-kernel-labs/6-list-sync/list-sync	EXPORT_SYMBOL	
+0x00000000	task_info_remove_expired	/home/noureddine/linux-lab/linux-kernel-labs/6-list-sync/list-sync	EXPORT_SYMBOL	
